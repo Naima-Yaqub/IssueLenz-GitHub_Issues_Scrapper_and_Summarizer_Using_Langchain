@@ -111,5 +111,5 @@ The application will start locally and can be accessed through the browser using
 
 ## License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License – see the [LICENSE]([LICENSE](https://github.com/Naima-Yaqub/IssueLenz-GitHub_Issues_Scrapper_and_Summarizer_Using_Langchain/blob/main/LICENSE)) file for details.
 
