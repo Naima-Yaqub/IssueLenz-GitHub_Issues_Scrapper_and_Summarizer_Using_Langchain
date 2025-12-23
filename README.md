@@ -97,6 +97,7 @@ streamlit run app.py
 ---
 
 ```md
+---
 ## Results and Impact
 
 Evaluation of IssueLenz on medium to large GitHub repositories produced the following outcomes:
