@@ -65,6 +65,14 @@ This modular design improves maintainability and allows individual components to
 
 ---
 
+## Results and Impact
+Evaluation of IssueLenz on medium to large GitHub repositories produced the following outcomes:
+- Reduced manual issue review time by approximately 40%
+- Increased issue processing throughput by around 25%
+- Average summarization response time of approximately 13 seconds
+- Successfully handled large repositories while operating within GitHub API rate limits
+---
+
 ## Technology Stack
 
 - Python 3.11  
@@ -83,20 +91,14 @@ This modular design improves maintainability and allows individual components to
 ```bash
 docker-compose up --build
 ```
-Running Locally (Without Docker)
+### Running Locally (Without Docker)
 
 To run the project directly on your local machine:
-Ensure Python 3.11 is installed
-Create and activate a virtual environment (recommended)
-Install the required dependencies
-Launch the Streamlit application
-
-Results and Impact
-Evaluation of IssueLenz on medium to large GitHub repositories produced the following outcomes:
-Reduced manual issue review time by approximately 40%
-Increased issue processing throughput by around 25%
-Average summarization response time of approximately 13 seconds
-Successfully handled large repositories while operating within GitHub API rate limits
-
+- Ensure Python 3.11 is installed
+- Create and activate a virtual environment (recommended)
+- Install the required dependencies
+- Launch the Streamlit application
+```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
