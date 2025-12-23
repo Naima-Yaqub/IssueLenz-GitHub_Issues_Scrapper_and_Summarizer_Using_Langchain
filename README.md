@@ -95,6 +95,7 @@ The application is fully containerized using Docker and Docker Compose.
 ```bash
 docker-compose up --build
 ```
+Once the containers are running, the Streamlit interface will be accessible via the local host address displayed in the terminal.
 ### Running Locally (Without Docker)
 
 To run the project directly on your local machine:
@@ -106,3 +107,4 @@ To run the project directly on your local machine:
 pip install -r requirements.txt
 streamlit run app.py
 ```
+The application will start locally and can be accessed through the browser using the URL provided by Streamlit.
