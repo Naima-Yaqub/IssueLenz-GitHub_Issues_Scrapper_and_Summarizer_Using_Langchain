@@ -88,6 +88,10 @@ Evaluation of IssueLenz on medium to large GitHub repositories produced the foll
 ## Running the Project
 
 ### Using Docker (recommended)
+The application is fully containerized using Docker and Docker Compose.
+- Ensure Docker and Docker Compose are installed on your system
+- Clone the repository
+- Run the following command from the project root:
 ```bash
 docker-compose up --build
 ```
