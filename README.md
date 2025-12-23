@@ -108,3 +108,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 The application will start locally and can be accessed through the browser using the URL provided by Streamlit.
+
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
