@@ -82,7 +82,7 @@ This modular design improves maintainability and allows individual components to
 ### Using Docker (recommended)
 ```bash
 docker-compose up --build
-
+```
 Running Locally (Without Docker)
 
 To run the project directly on your local machine:
