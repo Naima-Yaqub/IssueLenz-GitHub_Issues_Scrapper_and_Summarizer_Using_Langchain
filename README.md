@@ -69,7 +69,7 @@ This modular design improves maintainability and allows individual components to
 Evaluation of IssueLenz on medium to large GitHub repositories produced the following outcomes:
 - Reduced manual issue review time by approximately 40%
 - Increased issue processing throughput by around 25%
-- Average summarization response time of approximately 13 seconds
+- Average summarization response time of approximately 30 seconds
 - Successfully handled large repositories while operating within GitHub API rate limits
 ---
 
@@ -105,7 +105,7 @@ To run the project directly on your local machine:
 - Launch the Streamlit application
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run locallama.py
 ```
 The application will start locally and can be accessed through the browser using the URL provided by Streamlit.
 
